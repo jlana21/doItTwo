@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEBB88DC1D888E3200C0FF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88DB1D888E3200C0FF42 /* AppDelegate.swift */; };
+		EEBB88DE1D888E3200C0FF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88DD1D888E3200C0FF42 /* ViewController.swift */; };
+		EEBB88E11D888E3200C0FF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88DF1D888E3200C0FF42 /* Main.storyboard */; };
+		EEBB88E41D888E3200C0FF42 /* DoItTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88E21D888E3200C0FF42 /* DoItTwo.xcdatamodeld */; };
+		EEBB88E61D888E3200C0FF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88E51D888E3200C0FF42 /* Assets.xcassets */; };
+		EEBB88E91D888E3200C0FF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEBB88D81D888E3200C0FF42 /* DoItTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoItTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBB88DB1D888E3200C0FF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEBB88DD1D888E3200C0FF42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEBB88E01D888E3200C0FF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBB88E31D888E3200C0FF42 /* DoItTwo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoItTwo.xcdatamodel; sourceTree = "<group>"; };
+		EEBB88E51D888E3200C0FF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEBB88E81D888E3200C0FF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEBB88EA1D888E3200C0FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEBB88D51D888E3200C0FF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEBB88CF1D888E3200C0FF42 = {
+			isa = PBXGroup;
+			children = (
+				EEBB88DA1D888E3200C0FF42 /* DoItTwo */,
+				EEBB88D91D888E3200C0FF42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBB88D91D888E3200C0FF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB88D81D888E3200C0FF42 /* DoItTwo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBB88DA1D888E3200C0FF42 /* DoItTwo */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB88DB1D888E3200C0FF42 /* AppDelegate.swift */,
+				EEBB88DD1D888E3200C0FF42 /* ViewController.swift */,
+				EEBB88DF1D888E3200C0FF42 /* Main.storyboard */,
+				EEBB88E51D888E3200C0FF42 /* Assets.xcassets */,
+				EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */,
+				EEBB88EA1D888E3200C0FF42 /* Info.plist */,
+				EEBB88E21D888E3200C0FF42 /* DoItTwo.xcdatamodeld */,
+			);
+			path = DoItTwo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEBB88D71D888E3200C0FF42 /* DoItTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBB88ED1D888E3200C0FF42 /* Build configuration list for PBXNativeTarget "DoItTwo" */;
+			buildPhases = (
+				EEBB88D41D888E3200C0FF42 /* Sources */,
+				EEBB88D51D888E3200C0FF42 /* Frameworks */,
+				EEBB88D61D888E3200C0FF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoItTwo;
+			productName = DoItTwo;
+			productReference = EEBB88D81D888E3200C0FF42 /* DoItTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEBB88D01D888E3200C0FF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joseph Lana";
+				TargetAttributes = {
+					EEBB88D71D888E3200C0FF42 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EEBB88D31D888E3200C0FF42 /* Build configuration list for PBXProject "DoItTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEBB88CF1D888E3200C0FF42;
+			productRefGroup = EEBB88D91D888E3200C0FF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBB88D71D888E3200C0FF42 /* DoItTwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEBB88D61D888E3200C0FF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBB88E91D888E3200C0FF42 /* LaunchScreen.storyboard in Resources */,
+				EEBB88E61D888E3200C0FF42 /* Assets.xcassets in Resources */,
+				EEBB88E11D888E3200C0FF42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEBB88D41D888E3200C0FF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBB88E41D888E3200C0FF42 /* DoItTwo.xcdatamodeld in Sources */,
+				EEBB88DE1D888E3200C0FF42 /* ViewController.swift in Sources */,
+				EEBB88DC1D888E3200C0FF42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEBB88DF1D888E3200C0FF42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBB88E01D888E3200C0FF42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBB88E81D888E3200C0FF42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEBB88EB1D888E3200C0FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEBB88EC1D888E3200C0FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEBB88EE1D888E3200C0FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoItTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J-Swift-Apps.DoItTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEBB88EF1D888E3200C0FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoItTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J-Swift-Apps.DoItTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEBB88D31D888E3200C0FF42 /* Build configuration list for PBXProject "DoItTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB88EB1D888E3200C0FF42 /* Debug */,
+				EEBB88EC1D888E3200C0FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBB88ED1D888E3200C0FF42 /* Build configuration list for PBXNativeTarget "DoItTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB88EE1D888E3200C0FF42 /* Debug */,
+				EEBB88EF1D888E3200C0FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEBB88E21D888E3200C0FF42 /* DoItTwo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEBB88E31D888E3200C0FF42 /* DoItTwo.xcdatamodel */,
+			);
+			currentVersion = EEBB88E31D888E3200C0FF42 /* DoItTwo.xcdatamodel */;
+			path = DoItTwo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEBB88D01D888E3200C0FF42 /* Project object */;
+}
