@@ -13,6 +13,8 @@
 		EEBB88E41D888E3200C0FF42 /* DoItTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88E21D888E3200C0FF42 /* DoItTwo.xcdatamodeld */; };
 		EEBB88E61D888E3200C0FF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88E51D888E3200C0FF42 /* Assets.xcassets */; };
 		EEBB88E91D888E3200C0FF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */; };
+		EEBB88F11D88985B00C0FF42 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88F01D88985B00C0FF42 /* Task.swift */; };
+		EEBB88F31D88A4CE00C0FF42 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EEBB88E51D888E3200C0FF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBB88E81D888E3200C0FF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEBB88EA1D888E3200C0FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBB88F01D88985B00C0FF42 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				EEBB88DB1D888E3200C0FF42 /* AppDelegate.swift */,
 				EEBB88DD1D888E3200C0FF42 /* ViewController.swift */,
+				EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */,
 				EEBB88DF1D888E3200C0FF42 /* Main.storyboard */,
+				EEBB88F01D88985B00C0FF42 /* Task.swift */,
 				EEBB88E51D888E3200C0FF42 /* Assets.xcassets */,
 				EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */,
 				EEBB88EA1D888E3200C0FF42 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBB88F11D88985B00C0FF42 /* Task.swift in Sources */,
 				EEBB88E41D888E3200C0FF42 /* DoItTwo.xcdatamodeld in Sources */,
 				EEBB88DE1D888E3200C0FF42 /* ViewController.swift in Sources */,
 				EEBB88DC1D888E3200C0FF42 /* AppDelegate.swift in Sources */,
+				EEBB88F31D88A4CE00C0FF42 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
