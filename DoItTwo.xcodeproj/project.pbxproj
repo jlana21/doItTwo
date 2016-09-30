@@ -15,6 +15,7 @@
 		EEBB88E91D888E3200C0FF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB88E71D888E3200C0FF42 /* LaunchScreen.storyboard */; };
 		EEBB88F11D88985B00C0FF42 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88F01D88985B00C0FF42 /* Task.swift */; };
 		EEBB88F31D88A4CE00C0FF42 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */; };
+		EEED86561D91EB960071A20A /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED86551D91EB960071A20A /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EEBB88EA1D888E3200C0FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEBB88F01D88985B00C0FF42 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		EEED86551D91EB960071A20A /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				EEBB88DB1D888E3200C0FF42 /* AppDelegate.swift */,
 				EEBB88DD1D888E3200C0FF42 /* ViewController.swift */,
+				EEED86551D91EB960071A20A /* CompleteTaskViewController.swift */,
 				EEBB88F21D88A4CE00C0FF42 /* CreateTaskViewController.swift */,
 				EEBB88DF1D888E3200C0FF42 /* Main.storyboard */,
 				EEBB88F01D88985B00C0FF42 /* Task.swift */,
@@ -100,11 +103,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Joseph Lana";
 				TargetAttributes = {
 					EEBB88D71D888E3200C0FF42 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -146,6 +150,7 @@
 			files = (
 				EEBB88F11D88985B00C0FF42 /* Task.swift in Sources */,
 				EEBB88E41D888E3200C0FF42 /* DoItTwo.xcdatamodeld in Sources */,
+				EEED86561D91EB960071A20A /* CompleteTaskViewController.swift in Sources */,
 				EEBB88DE1D888E3200C0FF42 /* ViewController.swift in Sources */,
 				EEBB88DC1D888E3200C0FF42 /* AppDelegate.swift in Sources */,
 				EEBB88F31D88A4CE00C0FF42 /* CreateTaskViewController.swift in Sources */,
@@ -188,8 +193,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -234,8 +241,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -254,6 +263,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -267,6 +277,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "J-Swift-Apps.DoItTwo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -278,6 +289,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "J-Swift-Apps.DoItTwo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -300,6 +312,7 @@
 				EEBB88EF1D888E3200C0FF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
